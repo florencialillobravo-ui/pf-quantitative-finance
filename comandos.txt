@@ -1,0 +1,24 @@
+# comadnos de phyton
+
+# crear un ambiente virtual
+phyton3c -m venv .venv
+
+#activar ambeinte virtual
+source .venv/bin/activate
+
+#instalar librerias desde archivo requeriments
+pip3 install -r requeriments.txt
+
+#comandos de Git
+
+#revisar estado
+git status
+
+#agregar archivo
+git add {nombre_archivo}  ejemplo git add main.py 
+
+#confirmar cambios
+git commit -m "backup"
+
+#cargar cambios al repositorio
+git push origin main
